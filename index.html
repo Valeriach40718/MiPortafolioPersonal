@@ -1,11 +1,311 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark"><!--  -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valeria Chavez </title>
+    <!--Link de CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <a href="#Perfil" class="nav-link active" aria-current="page">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Perfil</font>
+                </font>
+            </a>
+            <li class="nav-item"><a href="#Habilidades" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Habilidades</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#Proyectos" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Proyectos</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#Testimonios" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Testimonios</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#Contactame" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Contáctame</font>
+                    </font>
+                </a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="Perfil" class="px-4 py-5 my-5 text-center">
+            <img id="fotoPerfil" class="d-block mx-auto mb-4" src="assets/ValeriaChavez.jpeg" alt="Foto de perfil"
+                width="250" height="250">
+            <h1 class="display-5 fw-bold text-body-emphasis">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Héroe centrado</font>
+                </font>
+            </h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Diseñadora web dando sus primeros pasos, futura ingeniera
+                            mecatronica, amante de los libros, las aventuras y costura.</font>
+                    </font>
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3" fdprocessedid="g524a">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Contáctame</font>
+                        </font>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="Habilidades" class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Habilidades</font>
+                </font>
+            </h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Persistencia</font>
+                        </font>
+                    </h3>
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Soy una persona altamente persistente, me encantan
+                                los retos, me gusta alcanzar las metas que me propongo, siempre estoy buscando nuevas
+                                cosas que hacer o aprender. </font>
+                        </font>
+                    </p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Adaptavilidad</font>
+                        </font>
+                    </h3>
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">El ser una persona extrovertida ayuda mucho a que me
+                                adapte casí a cualquier ambiente, soy muy sociable, me agrada conocer gente nueva,
+                                buscar nuevos ambientes y oportunidades. </font>
+                    </p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Deseo de aprender</font>
+                        </font>
+                    </h3>
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Me gusta muchísimo poner a prueba mis conocimientos y
+                                mi capacidad para retener información, es por eso que estoy en la constante busqueda de
+                                aprender cosas nuevas, nunca se sabe lo suficiente, siempre hay cosas interesantes que
+                                aprender. </font>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                    aria-label="Diapositiva 1" fdprocessedid="ibvjok"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2"
+                    fdprocessedid="eo0y0j" class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Diapositiva 3"
+                    fdprocessedid="8nfpho" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Titular de ejemplo.</font>
+                                </font>
+                            </h1>
+                            <p class="opacity-75">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Algún contenido de marcador de posición
+                                        representativo para la primera diapositiva del carrusel.</font>
+                                </font>
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Regístrate hoy</font>
+                                    </font>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active carousel-item-start">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Otro titular de ejemplo.</font>
+                                </font>
+                            </h1>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Algún contenido de marcador de posición
+                                        representativo para la segunda diapositiva del carrusel.</font>
+                                </font>
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Aprende más</font>
+                                    </font>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-next carousel-item-start">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Uno más por si acaso.</font>
+                                </font>
+                            </h1>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Algún contenido representativo de marcador de
+                                        posición para la tercera diapositiva de este carrusel.</font>
+                                </font>
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Explorar galería</font>
+                                    </font>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"
+                fdprocessedid="wxxzj8">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Anterior</font>
+                    </font>
+                </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"
+                fdprocessedid="0a9xs">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Próximo</font>
+                    </font>
+                </span>
+            </button>
+        </section>
+
+        <section id="Contáctame" class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+                <h1 class="display-5 fw-bold text-white">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">héroe de color oscuro</font>
+                    </font>
+                </h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Diseñe y personalice rápidamente sitios responsivos
+                                para dispositivos móviles con Bootstrap, el conjunto de herramientas de código abierto
+                                front-end más popular del mundo, que incluye variables y mixins de Sass, un sistema de
+                                cuadrícula responsivo, amplios componentes prediseñados y potentes complementos de
+                                JavaScript.</font>
+                        </font>
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+                            fdprocessedid="lct8s">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Botón personalizado</font>
+                            </font>
+                        </button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4" fdprocessedid="4d3ti">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Secundario</font>
+                            </font>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">© 2023 Valeria Chavez</font>
+                </font>
+            </span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i>
+                    <use xlink:href="#instagram"></use>
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i>
+                    <use xlink:href="#facebook"></use>
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github"></i>
+                    <use xlink:href="#whatsapp"></use>
+                </a></li>
+        </ul>
+    </footer>
+
+    <!-- Link de JS Bootstrap - al final por qué necesita que ya existan las etiquetas para ponerlas a hacer cosas y como esas cosas pueden variar, tienen que empezarse a hacer hasta que ya existan todos los elementos de HTML Y CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
