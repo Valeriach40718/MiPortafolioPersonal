@@ -29,4 +29,12 @@
 
 .btn-outline-info {
     --bs-btn-color: #6f42c1;
-    --bs-btn-border-color: #6f42c1;}
+    --bs-btn-border-color: #6f42c1;
+}
+
+#galeria{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
